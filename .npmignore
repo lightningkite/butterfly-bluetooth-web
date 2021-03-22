@@ -17,3 +17,5 @@ coverage/
 
 jest.config.js
 tsconfig.json
+
+yarn.lock
