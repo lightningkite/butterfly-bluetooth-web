@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.BuildConfig = void 0;
 //! Declares com.tresitgroup.android.tresit.BuildConfig
 class BuildConfig {
     static get DEBUG() {

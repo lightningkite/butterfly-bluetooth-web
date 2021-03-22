@@ -1,12 +1,13 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.BleServerDelegate = void 0;
 const rxjs_1 = require("rxjs");
-const ObservableProperty_ext_1 = require("butterfly/dist/observables/ObservableProperty.ext");
+const ObservableProperty_ext_1 = require("butterfly-web/dist/observables/ObservableProperty.ext");
 const models_1 = require("./models");
-const AbstractDisposable_1 = require("butterfly/dist/rx/AbstractDisposable");
-const lazyOp_1 = require("butterfly/dist/kotlin/lazyOp");
-const Collections_1 = require("butterfly/dist/kotlin/Collections");
-const BleServer_1 = require("butterfly/dist/bluetooth/BleServer");
+const AbstractDisposable_1 = require("butterfly-web/dist/rx/AbstractDisposable");
+const lazyOp_1 = require("butterfly-web/dist/kotlin/lazyOp");
+const Collections_1 = require("butterfly-web/dist/kotlin/Collections");
+const BleServer_1 = require("butterfly-web/dist/bluetooth/BleServer");
 var BleServerDelegate;
 (function (BleServerDelegate) {
     //! Declares com.lightningkite.butterfly.bluetooth.BleServerDelegate.PerCharacteristic

@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.ScanCallbackType = exports.ScanRecord = exports.ScanResult = exports.RxBleDevice = exports.RxBleClient = void 0;
 class RxBleClient {
     getBleDevice(macAddress) {
         throw Error("Not implemented yet");
