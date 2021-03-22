@@ -15,7 +15,8 @@
     "iterable-operator": "^0.10.3",
     "firebase": "^7.20.0",
     "@types/node": "^14.11.5",
-    "@types/web-bluetooth": "^0.0.9"
+    "@types/web-bluetooth": "^0.0.9",
+    "butterfly-web": "^0.1.2"
   },
   "peerDependencies": {},
   "devDependencies": {
